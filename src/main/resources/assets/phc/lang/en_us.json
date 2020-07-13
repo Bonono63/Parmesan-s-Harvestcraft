@@ -1,0 +1,25 @@
+{
+  "itemGroup.phc.group": "Parmesan's Harvestcraft Items",
+
+  "item.phc.parmesan": "Parmesan",
+  "item.phc.golden_parmesan": "Golden Parmesan",
+  "item.phc.brie": "Brie",
+  "item.phc.cheddar": "Cheddar",
+
+  "item.phc.asparagus": "Asparagus",
+  "item.phc.tomato": "Tomato",
+  "item.phc.green_peas": "Green Peas",
+  "item.phc.broccoli": "Broccoli",
+  "item.phc.onion": "Onion",
+  "item.phc.garlic": "Garlic",
+  "item.phc.ginger": "Ginger",
+  "item.phc.anchovies": "Anchovies",
+  "item.phc.cucumber": "Cucumber",
+  "item.phc.pickle": "Pickle",
+  "item.phc.vinegar": "Vinegar",
+
+  "item.phc.tekenos": "Tekeños",
+  "item.phc.cachapas": "Cachapas",
+  "item.phc.kimchi": "Kimchi",
+  "item.phc.flan": "Flan"
+}
