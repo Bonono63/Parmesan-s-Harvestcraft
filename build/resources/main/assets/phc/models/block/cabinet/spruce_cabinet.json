@@ -1,0 +1,7 @@
+{
+  "parent": "phc:block/cabinet/cabinet",
+  "textures": {
+    "0": "block/spruce_planks",
+    "particle": "block/spruce_planks"
+  }
+}

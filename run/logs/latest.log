@@ -1,110 +1,287 @@
-[09:56:26] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 41 mods: minecraft@1.16.1, fabric-renderer-api-v1@0.2.13+eae12eb802, fabric-networking-blockentity-v0@0.2.5+b50ffc7b02, fabric-screen-handler-api-v1@1.0.1+f362c86e02, fabric-keybindings-v0@0.2.0+3fa9f7c502, fabric-command-api-v1@1.0.8+5ce5339802, fabricloader@0.8.9+build.203, fabric-tool-attribute-api-v1@1.1.4+5794386e02, fabric-renderer-indigo@0.3.2+4d66bed502, fabric-containers-v0@0.1.8+045df74f02, fabric-object-builder-api-v1@1.5.5+e00ecb5f02, fabric-dimensions-v1@1.0.0+a71b305302, fabric-biomes-v1@0.2.7+059ea86602, fabric-item-api-v1@1.0.0+16acbe5b02, fabric-events-interaction-v0@0.3.3+7066030f02, fabric-crash-report-info-v1@0.1.2+b7f9825d02, fabric-api-base@0.1.3+12a8474c02, fabric-rendering-v0@1.1.0+5341049002, fabric-key-binding-api-v1@1.0.0+e16a977402, fabric-rendering-v1@1.1.2+346247d702, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d02, fabric-resource-loader-v0@0.2.6+f41e209802, fabric-textures-v0@1.0.4+eae12eb802, fabric-content-registries-v0@0.1.9+059ea86602, fabric-tag-extensions-v0@0.2.7+a4c57d8e02, fabric-rendering-fluids-v1@0.1.8+b7084faa02, phc@1.0.0, fabric-registry-sync-v0@0.3.8+7dba2d6c02, fabric-commands-v0@0.2.0+52d3083602, fabric-blockrenderlayer-v1@1.1.4+c6a8ea8902, fabric-lifecycle-events-v1@1.0.0+b0993bc102, fabric-mining-levels-v0@0.1.2+b764ce9902, fabric-renderer-registries-v1@2.0.1+5a0f9a6002, fabric-loot-tables-v1@0.1.10+059ea86602, fabric-events-lifecycle-v0@0.2.0+16acbe5b02, fabric@0.14.1+build.372-1.16, fabric-item-groups-v0@0.2.0+438f963602, fabric-models-v0@0.1.0+dfdb52d602, fabric-particles-v1@0.2.1+0a6f2a7002, fabric-object-builders-v0@0.6.0+da175ad602, fabric-networking-v0@0.1.10+e00ecb5f02
-[09:56:26] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/B0N/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.8+build.18/af077ad2845a00cde186fa2c99c4dd32bd2a2766/sponge-mixin-0.8+build.18.jar Service=Knot/Fabric Env=CLIENT
-[09:56:26] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-networking-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-networking-blockentity-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-biomes-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-screen-handler-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-lifecycle-events-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-renderer-indigo-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-rendering-data-attachment-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-item-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-events-interaction-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-loot-tables-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-object-builder-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-dimensions-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-renderer-registries-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-textures-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-registry-sync-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-models-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-blockrenderlayer-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-rendering-fluids-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-resource-loader-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-particles-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-object-builders-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-tag-extensions-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-tool-attribute-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-rendering-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-item-groups-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-content-registries-v0-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-command-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-crash-report-info-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-key-binding-api-v1-refmap.json using remapper chain
-[09:56:26] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
-[09:56:26] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ThreadedAnvilChunkStorage$EntityTracker is public in fabric-networking-v0.mixins.json:MixinEntityTracker and should be specified in value
-[09:56:26] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/block/BlockModelRenderer$AmbientOcclusionCalculator is public in fabric-renderer-indigo.mixins.json:MixinAmbientOcclusionCalculator and should be specified in value
-[09:56:26] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask is public in fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask and should be specified in value
-[09:56:27] [main/WARN] (mixin) @Mixin target net/minecraft/client/particle/ParticleManager$SimpleSpriteProvider is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
-[09:56:27] [main/WARN] (mixin) @Mixin target net/minecraft/tag/Tag$1 is public in fabric-tag-extensions-v0.mixins.json:MixinTagImpl and should be specified in value
-[09:56:31] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[09:56:31] [main/INFO] (Minecraft) Setting user: Player160
-[09:56:31] [main/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[09:56:31] [main/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
-[09:56:34] [main/INFO] (Minecraft) Narrator library for x64 successfully loaded
-[09:56:34] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
-[09:56:34] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Renderer API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Key Bindings (v0), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Object Builder API (v1), Fabric Biomes (v1), Fabric Item API (v1), Fabric Events Interaction (v0), Fabric Crash Report Info (v1), Fabric API Base, Fabric Rendering (v0), Fabric Key Binding API (v1), Fabric Rendering (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Example Mod, Fabric Registry Sync (v0), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric Events Lifecycle (v0), Fabric API, Fabric Item Groups (v0), Fabric Models (v0), Fabric Object Builders (v0), Fabric Networking (v0)
-[09:56:36] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[09:56:39] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
-[09:56:40] [Worker-Main-10/WARN] (Minecraft) Unable to load model: 'phc:parmesan#inventory' referenced from: phc:parmesan#inventory: java.io.FileNotFoundException: phc:models/item/parmesan.json
-[09:56:40] [Worker-Main-10/WARN] (Minecraft) Unable to load model: 'phc:golden_parmesan#inventory' referenced from: phc:golden_parmesan#inventory: java.io.FileNotFoundException: phc:models/item/golden_parmesan.json
-[09:56:41] [main/INFO] (Minecraft) OpenAL initialized.
-[09:56:41] [main/INFO] (Minecraft) Sound engine started
-[09:56:41] [main/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[09:56:41] [main/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[09:56:41] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[09:56:41] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[09:56:41] [main/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[09:56:41] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[09:56:41] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[09:56:42] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[09:56:42] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[09:56:42] [main/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[09:56:42] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
-[09:57:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:57:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:57:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:57:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:57:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:57:00] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Renderer API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Key Bindings (v0), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Object Builder API (v1), Fabric Biomes (v1), Fabric Item API (v1), Fabric Events Interaction (v0), Fabric Crash Report Info (v1), Fabric API Base, Fabric Rendering (v0), Fabric Key Binding API (v1), Fabric Rendering (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Example Mod, Fabric Registry Sync (v0), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric Events Lifecycle (v0), Fabric API, Fabric Item Groups (v0), Fabric Models (v0), Fabric Object Builders (v0), Fabric Networking (v0), Fabric Tool Attribute API (v1)
-[09:57:01] [main/INFO] (Minecraft) Loaded 7 recipes
-[09:57:01] [main/INFO] (Minecraft) Loaded 927 advancements
-[09:57:02] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[09:57:02] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.16.1
-[09:57:02] [Server thread/INFO] (Minecraft) Generating keypair
-[09:57:02] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[09:57:03] [main/INFO] (Minecraft) Preparing spawn area: 0%
-[09:57:03] [main/INFO] (Minecraft) Preparing spawn area: 0%
-[09:57:03] [main/INFO] (Minecraft) Preparing spawn area: 0%
-[09:57:04] [main/INFO] (Minecraft) Time elapsed: 1446 ms
-[09:57:04] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
-[09:57:04] [Server thread/INFO] (Minecraft) Player160[local:E:a4d4c86c] logged in with entity id 1 at (8.172995946197599, 56.0, 8.823367175607697)
-[09:57:05] [Server thread/INFO] (Minecraft) Player160 joined the game
-[09:57:05] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[09:57:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[09:57:05] [main/INFO] (Minecraft) Loaded 0 advancements
-[09:57:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[09:57:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[09:57:12] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[09:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[09:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[09:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[10:20:26] [Server thread/INFO] (Minecraft) Player160 lost connection: Disconnected
-[10:20:26] [Server thread/INFO] (Minecraft) Player160 left the game
-[10:20:26] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[10:20:26] [Server thread/INFO] (Minecraft) Stopping server
-[10:20:26] [Server thread/INFO] (Minecraft) Saving players
-[10:20:26] [Server thread/INFO] (Minecraft) Saving worlds
-[10:20:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[10:20:27] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test): All chunks are saved
-[10:20:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[10:20:27] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:20:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[10:20:27] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:20:27] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test): All chunks are saved
-[10:20:27] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:20:27] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:20:27] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
-[10:20:27] [main/INFO] (Minecraft) Stopping!
+[16:11:38] [main/INFO] (FabricLoader) Loading for game Minecraft 1.16.1
+[16:11:38] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 41 mods: minecraft@1.16.1, fabric-renderer-api-v1@0.2.13+eae12eb802, fabric-networking-blockentity-v0@0.2.5+b50ffc7b02, fabric-screen-handler-api-v1@1.0.1+f362c86e02, fabric-keybindings-v0@0.2.0+3fa9f7c502, fabric-command-api-v1@1.0.8+5ce5339802, fabricloader@0.8.9+build.203, fabric-tool-attribute-api-v1@1.1.4+5794386e02, fabric-renderer-indigo@0.3.2+4d66bed502, fabric-containers-v0@0.1.8+045df74f02, fabric-object-builder-api-v1@1.5.5+e00ecb5f02, fabric-dimensions-v1@1.0.0+a71b305302, fabric-biomes-v1@0.2.7+059ea86602, fabric-item-api-v1@1.0.0+16acbe5b02, fabric-events-interaction-v0@0.3.3+7066030f02, fabric-crash-report-info-v1@0.1.2+b7f9825d02, fabric-api-base@0.1.3+12a8474c02, fabric-rendering-v0@1.1.0+5341049002, fabric-key-binding-api-v1@1.0.0+e16a977402, fabric-rendering-v1@1.1.2+346247d702, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d02, fabric-resource-loader-v0@0.2.6+f41e209802, fabric-textures-v0@1.0.4+eae12eb802, fabric-content-registries-v0@0.1.9+059ea86602, fabric-tag-extensions-v0@0.2.7+a4c57d8e02, fabric-rendering-fluids-v1@0.1.8+b7084faa02, phc@1.0.0, fabric-registry-sync-v0@0.3.8+7dba2d6c02, fabric-commands-v0@0.2.0+52d3083602, fabric-blockrenderlayer-v1@1.1.4+c6a8ea8902, fabric-lifecycle-events-v1@1.0.0+b0993bc102, fabric-mining-levels-v0@0.1.2+b764ce9902, fabric-renderer-registries-v1@2.0.1+5a0f9a6002, fabric-loot-tables-v1@0.1.10+059ea86602, fabric-events-lifecycle-v0@0.2.0+16acbe5b02, fabric@0.14.1+build.372-1.16, fabric-item-groups-v0@0.2.0+438f963602, fabric-models-v0@0.1.0+dfdb52d602, fabric-particles-v1@0.2.1+0a6f2a7002, fabric-object-builders-v0@0.6.0+da175ad602, fabric-networking-v0@0.1.10+e00ecb5f02
+[16:11:39] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/B0N/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.8+build.18/af077ad2845a00cde186fa2c99c4dd32bd2a2766/sponge-mixin-0.8+build.18.jar Service=Knot/Fabric Env=CLIENT
+[16:11:39] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-networking-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-networking-blockentity-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-biomes-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-screen-handler-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-lifecycle-events-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-renderer-indigo-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-rendering-data-attachment-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-item-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-events-interaction-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-loot-tables-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-object-builder-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-dimensions-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-renderer-registries-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-textures-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-registry-sync-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-models-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-blockrenderlayer-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-rendering-fluids-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-resource-loader-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-particles-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-object-builders-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-tag-extensions-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-tool-attribute-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-rendering-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-item-groups-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-content-registries-v0-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-command-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-crash-report-info-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-key-binding-api-v1-refmap.json using remapper chain
+[16:11:39] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[16:11:39] [main/WARN] (mixin) @Mixin target net/minecraft/server/world/ThreadedAnvilChunkStorage$EntityTracker is public in fabric-networking-v0.mixins.json:MixinEntityTracker and should be specified in value
+[16:11:39] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/block/BlockModelRenderer$AmbientOcclusionCalculator is public in fabric-renderer-indigo.mixins.json:MixinAmbientOcclusionCalculator and should be specified in value
+[16:11:39] [main/WARN] (mixin) @Mixin target net/minecraft/client/render/chunk/ChunkBuilder$BuiltChunk$RebuildTask is public in fabric-renderer-indigo.mixins.json:MixinChunkRebuildTask and should be specified in value
+[16:11:39] [main/WARN] (mixin) @Mixin target net/minecraft/client/particle/ParticleManager$SimpleSpriteProvider is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
+[16:11:39] [main/WARN] (mixin) @Mixin target net/minecraft/tag/Tag$1 is public in fabric-tag-extensions-v0.mixins.json:MixinTagImpl and should be specified in value
+[16:11:43] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[16:11:43] [main/INFO] (Minecraft) Setting user: Player107
+[16:11:43] [main/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[16:11:43] [main/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[16:11:45] [main/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[16:11:45] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
+[16:11:45] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Renderer API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Key Bindings (v0), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Object Builder API (v1), Fabric Biomes (v1), Fabric Item API (v1), Fabric Events Interaction (v0), Fabric Crash Report Info (v1), Fabric API Base, Fabric Rendering (v0), Fabric Key Binding API (v1), Fabric Rendering (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Example Mod, Fabric Registry Sync (v0), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric Events Lifecycle (v0), Fabric API, Fabric Item Groups (v0), Fabric Models (v0), Fabric Object Builders (v0), Fabric Networking (v0)
+[16:11:47] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[16:11:48] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/oven.json: java.io.FileNotFoundException: phc:blockstates/oven.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/oven.json' missing model for variant: 'phc:oven#'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/deep_fryer.json: java.io.FileNotFoundException: phc:blockstates/deep_fryer.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/deep_fryer.json' missing model for variant: 'phc:deep_fryer#'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_birch_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_birch_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_birch_counter.json' missing model for variant: 'phc:granite_birch_counter#facing=west'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_birch_counter.json' missing model for variant: 'phc:granite_birch_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_birch_counter.json' missing model for variant: 'phc:granite_birch_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_birch_counter.json' missing model for variant: 'phc:granite_birch_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_crimson_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_crimson_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_crimson_counter.json' missing model for variant: 'phc:granite_crimson_counter#facing=west'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_crimson_counter.json' missing model for variant: 'phc:granite_crimson_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_crimson_counter.json' missing model for variant: 'phc:granite_crimson_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_crimson_counter.json' missing model for variant: 'phc:granite_crimson_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_dark_oak_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_dark_oak_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_dark_oak_counter.json' missing model for variant: 'phc:granite_dark_oak_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_dark_oak_counter.json' missing model for variant: 'phc:granite_dark_oak_counter#facing=west'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_dark_oak_counter.json' missing model for variant: 'phc:granite_dark_oak_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_dark_oak_counter.json' missing model for variant: 'phc:granite_dark_oak_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_jungle_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_jungle_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_jungle_counter.json' missing model for variant: 'phc:granite_jungle_counter#facing=west'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_jungle_counter.json' missing model for variant: 'phc:granite_jungle_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_jungle_counter.json' missing model for variant: 'phc:granite_jungle_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_jungle_counter.json' missing model for variant: 'phc:granite_jungle_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_oak_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_oak_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_oak_counter.json' missing model for variant: 'phc:granite_oak_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_oak_counter.json' missing model for variant: 'phc:granite_oak_counter#facing=west'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_oak_counter.json' missing model for variant: 'phc:granite_oak_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_oak_counter.json' missing model for variant: 'phc:granite_oak_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_spruce_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_spruce_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_spruce_counter.json' missing model for variant: 'phc:granite_spruce_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_spruce_counter.json' missing model for variant: 'phc:granite_spruce_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_spruce_counter.json' missing model for variant: 'phc:granite_spruce_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_spruce_counter.json' missing model for variant: 'phc:granite_spruce_counter#facing=west'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: phc:blockstates/granite_warped_counter.json: java.io.FileNotFoundException: phc:blockstates/granite_warped_counter.json
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_warped_counter.json' missing model for variant: 'phc:granite_warped_counter#facing=east'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_warped_counter.json' missing model for variant: 'phc:granite_warped_counter#facing=south'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_warped_counter.json' missing model for variant: 'phc:granite_warped_counter#facing=north'
+[16:11:49] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'phc:blockstates/granite_warped_counter.json' missing model for variant: 'phc:granite_warped_counter#facing=west'
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:golden_parmesan#inventory' referenced from: phc:golden_parmesan#inventory: java.io.FileNotFoundException: phc:models/item/golden_parmesan.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:asparagus#inventory' referenced from: phc:asparagus#inventory: java.io.FileNotFoundException: phc:models/item/asparagus.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:tomato#inventory' referenced from: phc:tomato#inventory: java.io.FileNotFoundException: phc:models/item/tomato.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:green_peas#inventory' referenced from: phc:green_peas#inventory: java.io.FileNotFoundException: phc:models/item/green_peas.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:broccoli#inventory' referenced from: phc:broccoli#inventory: java.io.FileNotFoundException: phc:models/item/broccoli.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:onion#inventory' referenced from: phc:onion#inventory: java.io.FileNotFoundException: phc:models/item/onion.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:garlic#inventory' referenced from: phc:garlic#inventory: java.io.FileNotFoundException: phc:models/item/garlic.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:ginger#inventory' referenced from: phc:ginger#inventory: java.io.FileNotFoundException: phc:models/item/ginger.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:cucumber#inventory' referenced from: phc:cucumber#inventory: java.io.FileNotFoundException: phc:models/item/cucumber.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:lemon#inventory' referenced from: phc:lemon#inventory: java.io.FileNotFoundException: phc:models/item/lemon.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:lime#inventory' referenced from: phc:lime#inventory: java.io.FileNotFoundException: phc:models/item/lime.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:orange#inventory' referenced from: phc:orange#inventory: java.io.FileNotFoundException: phc:models/item/orange.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:spinach#inventory' referenced from: phc:spinach#inventory: java.io.FileNotFoundException: phc:models/item/spinach.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:lettuce#inventory' referenced from: phc:lettuce#inventory: java.io.FileNotFoundException: phc:models/item/lettuce.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:chives#inventory' referenced from: phc:chives#inventory: java.io.FileNotFoundException: phc:models/item/chives.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:chickpeas#inventory' referenced from: phc:chickpeas#inventory: java.io.FileNotFoundException: phc:models/item/chickpeas.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:corn#inventory' referenced from: phc:corn#inventory: java.io.FileNotFoundException: phc:models/item/corn.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:grapes#inventory' referenced from: phc:grapes#inventory: java.io.FileNotFoundException: phc:models/item/grapes.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:fig#inventory' referenced from: phc:fig#inventory: java.io.FileNotFoundException: phc:models/item/fig.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:date#inventory' referenced from: phc:date#inventory: java.io.FileNotFoundException: phc:models/item/date.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:plum#inventory' referenced from: phc:plum#inventory: java.io.FileNotFoundException: phc:models/item/plum.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:oat#inventory' referenced from: phc:oat#inventory: java.io.FileNotFoundException: phc:models/item/oat.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:rye#inventory' referenced from: phc:rye#inventory: java.io.FileNotFoundException: phc:models/item/rye.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:barley#inventory' referenced from: phc:barley#inventory: java.io.FileNotFoundException: phc:models/item/barley.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:rice#inventory' referenced from: phc:rice#inventory: java.io.FileNotFoundException: phc:models/item/rice.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:oyster#inventory' referenced from: phc:oyster#inventory: java.io.FileNotFoundException: phc:models/item/oyster.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:vinegar#inventory' referenced from: phc:vinegar#inventory: java.io.FileNotFoundException: phc:models/item/vinegar.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:macaroon#inventory' referenced from: phc:macaroon#inventory: java.io.FileNotFoundException: phc:models/item/macaroon.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:pasta#inventory' referenced from: phc:pasta#inventory: java.io.FileNotFoundException: phc:models/item/pasta.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:anchovies#inventory' referenced from: phc:anchovies#inventory: java.io.FileNotFoundException: phc:models/item/anchovies.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:pickle#inventory' referenced from: phc:pickle#inventory: java.io.FileNotFoundException: phc:models/item/pickle.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:omelette#inventory' referenced from: phc:omelette#inventory: java.io.FileNotFoundException: phc:models/item/omelette.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:fried_egg#inventory' referenced from: phc:fried_egg#inventory: java.io.FileNotFoundException: phc:models/item/fried_egg.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:stock#inventory' referenced from: phc:stock#inventory: java.io.FileNotFoundException: phc:models/item/stock.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:potato_chips#inventory' referenced from: phc:potato_chips#inventory: java.io.FileNotFoundException: phc:models/item/potato_chips.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:chocolate_bar#inventory' referenced from: phc:chocolate_bar#inventory: java.io.FileNotFoundException: phc:models/item/chocolate_bar.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:cheesecake#inventory' referenced from: phc:cheesecake#inventory: java.io.FileNotFoundException: phc:models/item/cheesecake.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:teriyaki_chicken#inventory' referenced from: phc:teriyaki_chicken#inventory: java.io.FileNotFoundException: phc:models/item/teriyaki_chicken.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:california_roll#inventory' referenced from: phc:california_roll#inventory: java.io.FileNotFoundException: phc:models/item/california_roll.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:burger#inventory' referenced from: phc:burger#inventory: java.io.FileNotFoundException: phc:models/item/burger.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:ice_cream#inventory' referenced from: phc:ice_cream#inventory: java.io.FileNotFoundException: phc:models/item/ice_cream.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:donut#inventory' referenced from: phc:donut#inventory: java.io.FileNotFoundException: phc:models/item/donut.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:poutine#inventory' referenced from: phc:poutine#inventory: java.io.FileNotFoundException: phc:models/item/poutine.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:beaver_tail#inventory' referenced from: phc:beaver_tail#inventory: java.io.FileNotFoundException: phc:models/item/beaver_tail.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:butter_tarts#inventory' referenced from: phc:butter_tarts#inventory: java.io.FileNotFoundException: phc:models/item/butter_tarts.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:maple_syrup#inventory' referenced from: phc:maple_syrup#inventory: java.io.FileNotFoundException: phc:models/item/maple_syrup.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:arepa#inventory' referenced from: phc:arepa#inventory: java.io.FileNotFoundException: phc:models/item/arepa.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:cheese_empanada#inventory' referenced from: phc:cheese_empanada#inventory: java.io.FileNotFoundException: phc:models/item/cheese_empanada.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:spinach_empanada#inventory' referenced from: phc:spinach_empanada#inventory: java.io.FileNotFoundException: phc:models/item/spinach_empanada.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:cachapa#inventory' referenced from: phc:cachapa#inventory: java.io.FileNotFoundException: phc:models/item/cachapa.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:tekenos#inventory' referenced from: phc:tekenos#inventory: java.io.FileNotFoundException: phc:models/item/tekenos.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:quesadilla#inventory' referenced from: phc:quesadilla#inventory: java.io.FileNotFoundException: phc:models/item/quesadilla.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:dumpling#inventory' referenced from: phc:dumpling#inventory: java.io.FileNotFoundException: phc:models/item/dumpling.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:kimchi#inventory' referenced from: phc:kimchi#inventory: java.io.FileNotFoundException: phc:models/item/kimchi.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:galbi#inventory' referenced from: phc:galbi#inventory: java.io.FileNotFoundException: phc:models/item/galbi.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:soondubu_stew#inventory' referenced from: phc:soondubu_stew#inventory: java.io.FileNotFoundException: phc:models/item/soondubu_stew.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:kimchimari#inventory' referenced from: phc:kimchimari#inventory: java.io.FileNotFoundException: phc:models/item/kimchimari.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:bulgogi#inventory' referenced from: phc:bulgogi#inventory: java.io.FileNotFoundException: phc:models/item/bulgogi.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:miso_soup#inventory' referenced from: phc:miso_soup#inventory: java.io.FileNotFoundException: phc:models/item/miso_soup.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:teriyako_tropical_fish#inventory' referenced from: phc:teriyako_tropical_fish#inventory: java.io.FileNotFoundException: phc:models/item/teriyako_tropical_fish.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:teriyako_salmon#inventory' referenced from: phc:teriyako_salmon#inventory: java.io.FileNotFoundException: phc:models/item/teriyako_salmon.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:sweet_and_sour_chicken#inventory' referenced from: phc:sweet_and_sour_chicken#inventory: java.io.FileNotFoundException: phc:models/item/sweet_and_sour_chicken.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:wonton#inventory' referenced from: phc:wonton#inventory: java.io.FileNotFoundException: phc:models/item/wonton.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:spring_roll#inventory' referenced from: phc:spring_roll#inventory: java.io.FileNotFoundException: phc:models/item/spring_roll.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:pad_thai#inventory' referenced from: phc:pad_thai#inventory: java.io.FileNotFoundException: phc:models/item/pad_thai.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:mango_fried_rice#inventory' referenced from: phc:mango_fried_rice#inventory: java.io.FileNotFoundException: phc:models/item/mango_fried_rice.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:pineapple_fried_rice#inventory' referenced from: phc:pineapple_fried_rice#inventory: java.io.FileNotFoundException: phc:models/item/pineapple_fried_rice.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:skillet#inventory' referenced from: phc:skillet#inventory: java.io.FileNotFoundException: phc:models/item/skillet.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:pot#inventory' referenced from: phc:pot#inventory: java.io.FileNotFoundException: phc:models/item/pot.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:bakeware#inventory' referenced from: phc:bakeware#inventory: java.io.FileNotFoundException: phc:models/item/bakeware.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:mixing_bowl#inventory' referenced from: phc:mixing_bowl#inventory: java.io.FileNotFoundException: phc:models/item/mixing_bowl.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:juicer#inventory' referenced from: phc:juicer#inventory: java.io.FileNotFoundException: phc:models/item/juicer.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:mortar_and_pestle#inventory' referenced from: phc:mortar_and_pestle#inventory: java.io.FileNotFoundException: phc:models/item/mortar_and_pestle.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:oven#inventory' referenced from: phc:oven#inventory: java.io.FileNotFoundException: phc:models/item/oven.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:deep_fryer#inventory' referenced from: phc:deep_fryer#inventory: java.io.FileNotFoundException: phc:models/item/deep_fryer.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_acacia_counter#inventory' referenced from: phc:andesite_acacia_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_acacia_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_birch_counter#inventory' referenced from: phc:andesite_birch_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_birch_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_crimson_counter#inventory' referenced from: phc:andesite_crimson_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_crimson_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_dark_oak_counter#inventory' referenced from: phc:andesite_dark_oak_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_dark_oak_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_jungle_counter#inventory' referenced from: phc:andesite_jungle_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_jungle_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_oak_counter#inventory' referenced from: phc:andesite_oak_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_oak_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_spruce_counter#inventory' referenced from: phc:andesite_spruce_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_spruce_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:andesite_warped_counter#inventory' referenced from: phc:andesite_warped_counter#inventory: java.io.FileNotFoundException: phc:models/item/andesite_warped_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_acacia_counter#inventory' referenced from: phc:diorite_acacia_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_acacia_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_birch_counter#inventory' referenced from: phc:diorite_birch_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_birch_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_crimson_counter#inventory' referenced from: phc:diorite_crimson_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_crimson_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_dark_oak_counter#inventory' referenced from: phc:diorite_dark_oak_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_dark_oak_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_jungle_counter#inventory' referenced from: phc:diorite_jungle_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_jungle_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_oak_counter#inventory' referenced from: phc:diorite_oak_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_oak_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_spruce_counter#inventory' referenced from: phc:diorite_spruce_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_spruce_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:diorite_warped_counter#inventory' referenced from: phc:diorite_warped_counter#inventory: java.io.FileNotFoundException: phc:models/item/diorite_warped_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_acacia_counter#inventory' referenced from: phc:granite_acacia_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_acacia_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_birch_counter#inventory' referenced from: phc:granite_birch_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_birch_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_crimson_counter#inventory' referenced from: phc:granite_crimson_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_crimson_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_dark_oak_counter#inventory' referenced from: phc:granite_dark_oak_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_dark_oak_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_jungle_counter#inventory' referenced from: phc:granite_jungle_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_jungle_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_oak_counter#inventory' referenced from: phc:granite_oak_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_oak_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_spruce_counter#inventory' referenced from: phc:granite_spruce_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_spruce_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'phc:granite_warped_counter#inventory' referenced from: phc:granite_warped_counter#inventory: java.io.FileNotFoundException: phc:models/item/granite_warped_counter.json
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/crimson_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/birch_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/dark_oak_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/crimson_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/dark_oak_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/jungle_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/dark_oak_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/spruce_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/jungle_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/dark_oak_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/birch_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/oak_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/crimson_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/spruce_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/oak_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/spruce_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/jungle_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/acacia_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/oak_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/acacia_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/cabinet/warped_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/acacia_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/spruce_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/birch_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:block/sink/warped_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/oak_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/birch_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/crimson_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/warped_sink
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/acacia_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/warped_cabinet
+[16:11:50] [Worker-Main-9/WARN] (Minecraft) Unable to resolve texture reference: #missing in phc:item/jungle_sink
+[16:11:51] [main/INFO] (Minecraft) OpenAL initialized.
+[16:11:51] [main/INFO] (Minecraft) Sound engine started
+[16:11:51] [main/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[16:11:51] [main/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:11:51] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:11:51] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:11:51] [main/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:11:51] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:11:51] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:11:52] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:11:52] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:11:52] [main/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:11:52] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
+[16:12:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:12:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:12:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:12:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:12:00] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:12:00] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Renderer API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Key Bindings (v0), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Object Builder API (v1), Fabric Biomes (v1), Fabric Item API (v1), Fabric Events Interaction (v0), Fabric Crash Report Info (v1), Fabric API Base, Fabric Rendering (v0), Fabric Key Binding API (v1), Fabric Rendering (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Example Mod, Fabric Registry Sync (v0), Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric Events Lifecycle (v0), Fabric API, Fabric Item Groups (v0), Fabric Models (v0), Fabric Object Builders (v0), Fabric Networking (v0), Fabric Tool Attribute API (v1)
+[16:12:00] [main/INFO] (Minecraft) Loaded 7 recipes
+[16:12:00] [main/INFO] (Minecraft) Loaded 927 advancements
+[16:12:01] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[16:12:01] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.16.1
+[16:12:01] [Server thread/INFO] (Minecraft) Generating keypair
+[16:12:01] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[16:12:02] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[16:12:02] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[16:12:02] [main/INFO] (Minecraft) Time elapsed: 773 ms
+[16:12:02] [Server thread/INFO] (Minecraft) Changing view distance to 7, from 10
+[16:12:03] [Server thread/INFO] (Minecraft) Player107[local:E:174e1cd2] logged in with entity id 1 at (15.253662697453349, 57.0, 10.271697719869419)
+[16:12:03] [Server thread/INFO] (Minecraft) Player107 joined the game
+[16:12:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:12:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[16:12:03] [main/INFO] (Minecraft) Loaded 13 advancements
+[16:12:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[16:12:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[16:13:55] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:13:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[16:13:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[16:13:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[16:18:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:18:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[16:18:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[16:18:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[19:31:51] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 10084602ms or 201692 ticks behind
+[20:04:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[20:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[20:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[20:04:41] [Server thread/INFO] (Minecraft) Player107 lost connection: Disconnected
+[20:04:41] [Server thread/INFO] (Minecraft) Player107 left the game
+[20:04:41] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[20:04:41] [Server thread/INFO] (Minecraft) Stopping server
+[20:04:41] [Server thread/INFO] (Minecraft) Saving players
+[20:04:41] [Server thread/INFO] (Minecraft) Saving worlds
+[20:04:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[20:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test): All chunks are saved
+[20:04:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[20:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:04:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[20:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test): All chunks are saved
+[20:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:04:41] [main/INFO] (Minecraft) [STDOUT]: This line is printed by an example mod mixin!
+[20:04:41] [main/INFO] (Minecraft) Stopping!

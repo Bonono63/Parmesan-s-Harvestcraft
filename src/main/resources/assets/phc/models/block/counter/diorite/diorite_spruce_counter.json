@@ -1,0 +1,6 @@
+{
+  "parent": "phc:block/counter/diorite/diorite_counter",
+  "textures": {
+    "1": "block/spruce_planks"
+  }
+}

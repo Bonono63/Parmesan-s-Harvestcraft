@@ -1,0 +1,7 @@
+{
+  "parent": "phc:block/chopping_board/chopping_board",
+  "textures": {
+    "0": "block/birch_log_top",
+    "particle": "block/birch_log_top"
+  }
+}

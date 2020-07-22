@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": {
+      "model": "phc:block/chopping_board/acacia_chopping_board"
+    }
+  }
+}
+
+{
+  "variants": {
+    "": { "model": "create:block/palettes/acacia_glass" }
+  }
+}

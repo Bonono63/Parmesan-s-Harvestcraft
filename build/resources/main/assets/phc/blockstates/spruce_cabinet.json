@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "model": "phc:block/cabinet/spruce_cabinet"
+  },
+  "variants": {
+    "facing=north": { "model": "phc:block/cabinet/spruce_cabinet", "y": 180 },
+    "facing=south": { "model": "phc:block/cabinet/spruce_cabinet" },
+    "facing=east": { "model": "phc:block/cabinet/spruce_cabinet", "y": 270 },
+    "facing=west": { "model": "phc:block/cabinet/spruce_cabinet", "y": 90 }
+  }
+}

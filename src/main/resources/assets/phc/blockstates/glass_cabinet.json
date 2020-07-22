@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "model": "phc:block/cabinet/glass_cabinet"
+  },
+  "variants": {
+    "facing=north": { "model": "phc:block/cabinet/glass_cabinet", "y": 180 },
+    "facing=south": { "model": "phc:block/cabinet/glass_cabinet" },
+    "facing=east": { "model": "phc:block/cabinet/glass_cabinet", "y": 270 },
+    "facing=west": { "model": "phc:block/cabinet/glass_cabinet", "y": 90 }
+  }
+}

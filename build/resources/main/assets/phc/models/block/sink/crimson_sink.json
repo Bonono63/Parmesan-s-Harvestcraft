@@ -1,0 +1,7 @@
+{
+  "parent": "phc:block/sink/sink",
+  "textures": {
+    "0": "block/crimson_planks",
+    "particle": "block/crimson_planks"
+  }
+}

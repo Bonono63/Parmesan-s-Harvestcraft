@@ -1,0 +1,7 @@
+{
+  "parent": "phc:block/sink/sink",
+  "textures": {
+    "0": "block/warped_planks",
+    "particle": "block/warped_planks"
+  }
+}

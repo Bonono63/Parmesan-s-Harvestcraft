@@ -1,0 +1,7 @@
+{
+  "parent": "phc:block/chopping_board/chopping_board",
+  "textures": {
+    "0": "block/warped_stem_top",
+    "particle": "block/warped_stem_top"
+  }
+}

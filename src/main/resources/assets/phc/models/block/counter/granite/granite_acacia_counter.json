@@ -1,0 +1,6 @@
+{
+  "parent": "phc:block/counter/granite/granite_counter",
+  "textures": {
+    "1": "block/acacia_planks"
+  }
+}

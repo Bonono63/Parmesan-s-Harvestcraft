@@ -1,4 +1,167 @@
 {
+  "itemGroup.phc.group": "Parmesan's Harvestcraft Items",
+
   "item.phc.parmesan": "Parmesan",
-  "itemGroup.phc.group": "Parmesan's Harvestcraft Items"
+  "item.phc.mozzarella": "Mozzarella",
+  "item.phc.gouda": "Gouda",
+  "item.phc.feta": "Feta",
+  "item.phc.provolone": "Provolone",
+  "item.phc.brie": "Brie",
+  "item.phc.cheddar": "Cheddar",
+  "item.phc.golden_parmesan": "Golden Parmesan",
+  "item.phc.queso_de_mano": "Queso de Mano",
+
+  "item.phc.asparagus": "Asparagus",
+  "item.phc.tomato": "Tomato",
+  "item.phc.green_peas": "Green Peas",
+  "item.phc.broccoli": "Broccoli",
+  "item.phc.onion": "Onion",
+  "item.phc.garlic": "Garlic",
+  "item.phc.ginger": "Ginger",
+  "item.phc.cucumber": "Cucumber",
+  "item.phc.lemon": "Lemon",
+  "item.phc.lime": "Lime",
+  "item.phc.orange": "Orange",
+  "item.phc.spinach": "Spinach",
+  "item.phc.lettuce": "Lettuce",
+  "item.phc.chives": "Chives",
+  "item.phc.chickpeas": "Chickpeas",
+  "item.phc.corn": "Corn",
+  "item.phc.grapes": "Grapes",
+  "item.phc.fig": "Fig",
+  "item.phc.date": "Date",
+  "item.phc.plum": "Plum",
+  "item.phc.rice": "Rice",
+  "item.phc.barley": "Barley",
+  "item.phc.rye": "Rye",
+  "item.phc.oat": "Oat",
+  "item.phc.oyster": "Oyster",
+
+  "item.phc.vinegar": "Vinegar",
+
+  "_comment": "Global Food",
+
+  "item.phc.flan": "Flan",
+
+  "_comment": "French Food",
+
+  "item.phc.macaron": "Macaron",
+
+  "_comment": "Greek Food",
+
+  "item.phc.spanicopida": "Spanicopida",
+
+  "_comment": "Italian Food",
+
+  "item.phc.pasta": "Pasta",
+
+  "_comment": "General South American Food",
+
+  "item.phc.arepa": "Arepa",
+  "item.phc.spinach_empanada": "Spinach Empanada",
+  "item.phc.cheese_empanada": "Queso Empanada",
+  "item.phc.empanada": "Empanada",
+
+  "_comment": "Venzuelan Food",
+  "item.phc.tekenos": "Tekeños",
+  "item.phc.cachapa": "Cachapa",
+
+  "_comment": "Mexican Food",
+
+  "item.phc.quesadilla": "Quesadilla",
+
+  "_comment": "General American",
+
+  "item.phc.potato_chips": "Potato Chips",
+  "item.phc.cheesecake": "Cheesecake",
+  "item.phc.chocolate_bar": "Chocolate Bar",
+  "item.phc.pickle": "Pickle",
+  "item.phc.anchovies": "Anchovies",
+
+  "_comment": "United States Food",
+
+  "item.phc.stock": "Stock",
+  "item.phc.omelette": "Omelette",
+  "item.phc.fried_egg": "Fried Egg",
+  "item.phc.teriyaki_chicken": "Teriyaki Chicken",
+  "item.phc.california_roll": "California Roll",
+  "item.phc.burger": "Burger",
+  "item.phc.twinkies": "Twinkies",
+
+  "_comment": "Canadian Food",
+
+  "item.phc.poutine": "Poutine",
+  "item.phc.beaver_tail": "Beaver Tail",
+  "item.phc.butter_tarts": "Butter Tarts",
+  "item.phc.maple_syrup": "Maple Syrup",
+
+  "_comment": "General Middle East",
+
+  "item.phc.baklava": "Baklava",
+
+  "_comment": "General Asian",
+
+  "item.phc.dumpling": "Dumpling",
+
+  "_comment": "Korean Food",
+
+  "item.phc.galbi": "Galbi",
+  "item.phc.soondubu_stew": "Soondubu Stew",
+  "item.phc.kimchimari": "Kimchimaru",
+  "item.phc.bulgogi": "Bulgogi",
+  "item.phc.kimchi": "Kimchi",
+
+  "_comment": "Japanese Food",
+
+  "item.phc.miso_soup": "Miso Soup",
+  "item.pch.teriyaki_tropical_fish": "Teriyaki Tropical Fish",
+  "item.phc.teriyaki_salmon": "Teriyaki Salmon",
+
+  "_comment": "Chinese Food",
+
+  "item.phc.sweet_and_sour_chicken": "Sweet & Sour Chicken",
+  "item.phc.wonton": "Wonton",
+
+  "_comment": "Vietnamese Food",
+
+  "item.phc.spring_roll": "Spring Roll",
+
+  "_comment": "Thai Food",
+
+  "item.phc.pad_thai": "Pad Thai",
+  "item.phc.mango_fried_rice": "Mango Fried Rice",
+  "item.phc.pineappple_fried_rice": "Pineapple Fried Rice",
+
+  "_comment": "Item tools",
+
+  "item.phc.skillet": "Skillet",
+  "item.phc.pot": "Pot",
+  "item.phc.mortar_and_pestle": "Mortar and Pestle",
+
+  "_comment": "Tool Blocks",
+
+  "block.phc.oven": "Oven",
+  "block.phc.deep_fryer": "Deep Fryer",
+
+  "_comment": "sinks",
+
+  "block.phc.acacia_sink": "Acacia Sink",
+  "block.phc.birch_sink": "Birch Sink",
+  "block.phc.crimson_sink": "Crimson Sink",
+  "block.phc.dark_oak_sink": "Dark Oak Sink",
+  "block.phc.jungle_sink": "Jungle Sink",
+  "block.phc.oak_sink": "Oak Sink",
+  "block.phc.spruce_sink": "Spruce Sink",
+  "block.phc.warped_sink": "Warped Sink",
+
+  "_comment": "Chopping Boards",
+
+  "block.phc.acacia_chopping_board": "Acacia Chopping Board",
+  "block.phc.birch_chopping_board": "Birch Chopping Board",
+  "block.phc.crimson_chopping_board": "Crimson Chopping Board",
+  "block.phc.dark_oak_chopping_board": "Dark Oak Chopping Board",
+  "block.phc.jungle_chopping_board": "Jungle Chopping Board",
+  "block.phc.oak_chopping_board": "Oak Chopping Board",
+  "block.phc.spruce_chopping_board": "Spruce Chopping Board",
+  "block.phc.warped_chopping_board": "Warped Chopping Board"
 }

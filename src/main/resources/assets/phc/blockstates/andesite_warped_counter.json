@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "model": "phc:block/counter/andesite/andesite_warped_counter"
+  },
+  "variants": {
+    "facing=north": { "model": "phc:block/counter/andesite/andesite_warped_counter", "y": 180 },
+    "facing=south": { "model": "phc:block/counter/andesite/andesite_warped_counter" },
+    "facing=east": { "model": "phc:block/counter/andesite/andesite_warped_counter", "y": 270 },
+    "facing=west": { "model": "phc:block/counter/andesite/andesite_warped_counter", "y": 90 }
+  }
+}

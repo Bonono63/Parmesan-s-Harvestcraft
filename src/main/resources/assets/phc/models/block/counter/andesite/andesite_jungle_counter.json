@@ -1,0 +1,6 @@
+{
+  "parent": "phc:block/counter/andesite/andesite_counter",
+  "textures": {
+    "1": "block/jungle_planks"
+  }
+}

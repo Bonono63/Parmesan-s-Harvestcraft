@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import net.mrbonono63.phc.registry.PBlocks;
 import net.mrbonono63.phc.registry.PItems;
 
 public class Main implements ModInitializer {
@@ -20,6 +21,7 @@ public class Main implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		PBlocks.init();
 		PItems.init();
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "model": "phc:block/sink/jungle_sink"
+  },
+  "variants": {
+    "facing=north": { "model": "phc:block/sink/jungle_sink", "y": 180 },
+    "facing=south": { "model": "phc:block/sink/jungle_sink" },
+    "facing=east": { "model": "phc:block/sink/jungle_sink", "y": 270 },
+    "facing=west": { "model": "phc:block/sink/jungle_sink", "y": 90 }
+  }
+}
